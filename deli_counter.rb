@@ -8,6 +8,8 @@ queue_number = katz_deli.index(name) + 1
   
 end
 
+def take
+
 def line(katz_deli)
 
 if katz_deli.length == 0
