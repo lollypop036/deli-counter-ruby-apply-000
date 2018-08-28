@@ -8,7 +8,14 @@ queue_number = katz_deli.index(name) + 1
   
 end
 
-def take
+def take_a_number_alternate(katz_deli)
+  number = 0
+  number +=1
+  katz_deli.push(number)
+  
+  
+  
+end
 
 def line(katz_deli)
 
