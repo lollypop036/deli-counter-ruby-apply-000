@@ -10,7 +10,7 @@ end
 
 def take_a_number_alternate(katz_deli)
   number = 0
-  number +=1
+  number {|x|  x+=1}
   katz_deli.push(number)
   
   
